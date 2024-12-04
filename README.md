@@ -1,8 +1,6 @@
 # BackEnd API Concepts
 ------------------------
-
 ## Spring REST (Textbook: Ch. 1 - 3)
-
 ### REST Fundamentals
 - **RE***presentational* **S***tate* **T***ransfer*
 - Architectual style for designing distrubuted network applications.
@@ -23,8 +21,7 @@
     - Can contain path variable/template variable using **{}** (ex:http//blog.example.com/**{year}**/posts).
   - **Representation**: Snapshot of resources state at given time.
     - Can be text-based formats (ex: HTML, XML, JSON, etc.) or binary formats (ex: PDF, JPEG, MP4, etc.).
-    - **Content Negotiation**: Client request for specific representation (using formats above).
-   
+    - **Content Negotiation**: Client request for specific representation (using formats above).   
 ### HTTP
   - **HTTP Methods**: Allow client & server interaction through standardized operations (verbs).
     - 2 important characteristics: *Safety & Indempotency*
@@ -38,7 +35,6 @@
     - **POST** (*n/a*): Used to create resources. Does not need URI, server will assign ID.
     - **PATCH** (*n/a*): Used to perform partial resource updates. Can be done in different formats.
   - **CRUD** : 4 basic persistence functions for mapping data-driven apps -> **C**reate, **U**pdate, **R**ead, **D**elete.
-
 >  - **HTTP Status Codes**: Allows server to communicate results of client's request.
 >    - Informational Codes: Request received, but processing not complete [100]
 >      - 100 (*Continue*)
@@ -64,7 +60,6 @@
   2) Endpoints
   3) Actions
   4) Responses
-
 ### Spring Framework
 - **Dependency Injection**: Allows dependencies to be injected into components that need them.
 - **Spring Web MVC**
@@ -80,5 +75,15 @@
 >  - Spring Tool Suite (STS) IDE
 >  - Boot CLI
 - *To access & experiment REST API/apps, there are tools* (ex: Postman, RESTClient, etc.) *that allow you to test a request & inspect the response.*
-    
+-----------------------------------------------------------------------------------------------
+## Rapid API (https://rapidapi.com/learn/rest)
+# What is an API?
+**API** specifies set of rules & protocols, and defines data format, authentication mechanisms, & other technical details for interaction between client and server.
+# What is HTTP?
+(*HyperText Transfer Protocol*) Application layer protocol. Provides a standardized way for applications to communicate with each other on the internet. Defines **request methods, response codes, headers,** and **message formats** used to exchange data between clients & servers.
+- HTTP defines several **request methods** (*verbs*) that can be used to perform different types of actions on a resource. (*GET, POST, PUT, DELETE, PATCH, etc.*)
+- HTTP defines a set of **response codes** that indicate the status of a request. These codes are three-digit numbers that are sent by the server in response to a client's request. (*200, 401, 404, etc.*)
+- HTTP defines a set of **headers** that can be used to provide additional information about a request or response. Headers are key-value pairs included in the HTTP message. (*Authorization, Cache-Control, Content-Type, Accept, etc.*)
+- HTTP **messages** are the way that clients and servers communicate with each other. (*Requests & Responses*). 3 parts of request are: *request line, headers, & body*. 3 parts of response are: *status line, headers, & body*.
+
 
