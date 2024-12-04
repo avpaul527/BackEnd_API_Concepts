@@ -78,12 +78,35 @@
 -----------------------------------------------------------------------------------------------
 ## Rapid API (https://rapidapi.com/learn/rest)
 # What is an API?
-**API** specifies set of rules & protocols, and defines data format, authentication mechanisms, & other technical details for interaction between client and server.
+(*Application Programming Interfaces*) Specifies set of rules & protocols, and defines data format, authentication mechanisms, & other technical details for interaction between client and server.
 # What is HTTP?
 (*HyperText Transfer Protocol*) Application layer protocol. Provides a standardized way for applications to communicate with each other on the internet. Defines **request methods, response codes, headers,** and **message formats** used to exchange data between clients & servers.
 - HTTP defines several **request methods** (*verbs*) that can be used to perform different types of actions on a resource. (*GET, POST, PUT, DELETE, PATCH, etc.*)
 - HTTP defines a set of **response codes** that indicate the status of a request. These codes are three-digit numbers that are sent by the server in response to a client's request. (*200, 401, 404, etc.*)
 - HTTP defines a set of **headers** that can be used to provide additional information about a request or response. Headers are key-value pairs included in the HTTP message. (*Authorization, Cache-Control, Content-Type, Accept, etc.*)
 - HTTP **messages** are the way that clients and servers communicate with each other. (*Requests & Responses*). 3 parts of request are: *request line, headers, & body*. 3 parts of response are: *status line, headers, & body*.
+# Different type of HTTP headers
+- Request headers: *sent by the client to the server and provide additional information about the request.*
+- Response headers: *sent by the server to the client and provide additional information about the response.*
+- Entity headers: *sent with the entity body of a request or response and provide additional information about the content.*
+# Different type of HTTP methods
+1) **GET**: *used to retrieve a resource from the server. When client sends a GET request, the server responds with the requested resource.*
+2) **POST**: *used to submit data to the server for processing. When client sends a POST request, the server processes the data and sends back a response.*
+3) **PUT**: *used to update an existing resource on the server. When client sends a PUT request, the server replaces the existing resource with the new data provided by the client.*
+4) **DELETE**: *used to delete a resource from the server. When client sends a DELETE request, the server removes the specified resource from its storage.*
+5) **OPTIONS**: *used to retrieve information about the communication options available for a resource. When client sends an OPTIONS request, the server responds with a list of the available methods, headers, and other communication options for the specified resource.*
+6) **HEAD**: *similar to the GET method, but only retrieves the headers for a resource and not the body. When client sends a HEAD request, the server responds with the headers for the specified resource but does not send the actual content.*
+7) **CONNECT**: *used to establish a network connection to a resource. When client sends a CONNECT request, the server responds with a tunnel that can be used to establish a secure connection to the specified resource.*
+8) **TRACE**: *used to retrieve a diagnostic trace of the communication between a client and a server. When a client sends TRACE request, the server responds with a message that contains a copy of the request and response headers.*
+# What is a REST API?
+**REST** (**RE**presentational **S**tate **T**ransfer) APIs allow computers to talk to each other over the internet in a way that is standardized and easy to understand.
+- Software architectural style for building web services that allow communication between applications over the internet.
+-  Emphasizes simplicity, scalability, and flexibility.
+# Key feature of REST APIs
+Allow applications to interact with each other over the internet by sending and receiving data in a standardized way. Allow applications to communicate without being tightly coupled (changes to one application won't necessarily impact the other application).
+Key features:
+- Client-server architecture
+
+
 
 
