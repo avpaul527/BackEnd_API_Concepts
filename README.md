@@ -1,6 +1,5 @@
 # BackEnd API Concepts
 ------------------------
-## Spring REST (Textbook: Ch. 1 - 3)
 ### REST Fundamentals
 - **RE***presentational* **S***tate* **T***ransfer*
 - Architectual style for designing distrubuted network applications.
@@ -75,8 +74,7 @@
 >  - Spring Tool Suite (STS) IDE
 >  - Boot CLI
 - *To access & experiment REST API/apps, there are tools* (ex: Postman, RESTClient, etc.) *that allow you to test a request & inspect the response.*
------------------------------------------------------------------------------------------------
-## Rapid API (https://rapidapi.com/learn/rest)
+
 # What is an API?
 (*Application Programming Interfaces*) Specifies set of rules & protocols, and defines data format, authentication mechanisms, & other technical details for interaction between client and server.
 # What is HTTP?
@@ -102,10 +100,7 @@
 **REST** (**RE**presentational **S**tate **T**ransfer) APIs allow computers to talk to each other over the internet in a way that is standardized and easy to understand.
 - Software architectural style for building web services that allow communication between applications over the internet.
 -  Emphasizes simplicity, scalability, and flexibility.
-# Key feature of REST APIs
-Allow applications to interact with each other over the internet by sending and receiving data in a standardized way. Allow applications to communicate without being tightly coupled (changes to one application won't necessarily impact the other application).
-Key features:
-- Client-server architecture
+
 
 
 
